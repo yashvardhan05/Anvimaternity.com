@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maternity Wear Rentals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Maternity Wear Rentals</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Rent Stylish & Comfortable Maternity Wear</h2>
+        <p>Affordable and eco-friendly maternity fashion for every stage of pregnancy.</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Collection</h2>
+        <div class="product-container">
+            <div class="product">
+                <img src="dress1.jpg" alt="Maternity Dress">
+                <p>Elegant Maternity Dress</p>
+                <button onclick="rentItem()">Rent Now</button>
+            </div>
+            <div class="product">
+                <img src="dress2.jpg" alt="Maternity Gown">
+                <p>Casual Maternity Gown</p>
+                <button onclick="rentItem()">Rent Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Maternity Wear Rentals. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
